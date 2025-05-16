@@ -25,6 +25,14 @@
       <value>application/json</value>
       <webElementGuid>fc29b512-38de-416f-9644-14a07f24d5ef</webElementGuid>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>aa6bce23533b364aac710b69827b904c</value>
+      <webElementGuid>d1dabff4-dd4b-4f98-b6b6-f53def4d3b72</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.1.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>

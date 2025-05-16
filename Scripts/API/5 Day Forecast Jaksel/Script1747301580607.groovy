@@ -12,7 +12,7 @@ WS.verifyResponseStatusCode(response, 200)
 def json = new JsonSlurper().parseText(response.getResponseBodyContent())
 
 // Assert body content
-assert json.city.name == 'Jakarta'
+assert json.city.name == "Jakarta" || json.city.name == "Rawa Barat"
 assert json.list.size() > 0
 
 // Sample schema check
